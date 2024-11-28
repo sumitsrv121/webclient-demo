@@ -1,4 +1,4 @@
-package com.example.webclient.configuration;
+package com.srv.sumit.webclient_demo.configuration;
 
 import io.netty.handler.timeout.ReadTimeoutHandler;
 import io.netty.handler.timeout.WriteTimeoutHandler;

@@ -2,7 +2,6 @@ package com.srv.sumit.webclient_demo;
 
 import com.srv.sumit.webclient_demo.dto.ProductDTO;
 import com.srv.sumit.webclient_demo.dto.ProductRequestDTO;
-import com.srv.sumit.webclient_demo.dto.ProductResponseDTO;
 import com.srv.sumit.webclient_demo.util.WebClientHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
