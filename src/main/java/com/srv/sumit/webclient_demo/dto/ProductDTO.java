@@ -6,6 +6,7 @@ public class ProductDTO {
     private String name;
     private ProductData data;
 
+
     // Getters and Setters
     public String getId() {
         return id;
