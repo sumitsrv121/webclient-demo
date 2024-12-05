@@ -55,7 +55,7 @@ public class WebclientDemoApplication implements CommandLineRunner {
         Map<?,?> post = webClientHelper.post("https://api.restful-api.dev", "/objects", Map.class, null, null, requestDTO);
         Map<?,?> post1 = httpClientHelper.post("https://api.restful-api.dev", "/objects", null, requestDTO, null,  Map.class);
         Map<?,?> post2 = restClientHelper.post("https://api.restful-api.dev", "/objects", null, requestDTO, null,  Map.class);
-        Map<?,?>[] post3 = restClientHelper.post("https://api.restful-api.dev", "/objects", null, requestDTO, null, Map[].class);
+        //Map<?,?>[] post3 = restClientHelper.post("https://api.restful-api.dev", "/objects", null, requestDTO, null, Map[].class);
         System.out.println(post);
         System.out.println(post1);
         System.out.println(post2);
