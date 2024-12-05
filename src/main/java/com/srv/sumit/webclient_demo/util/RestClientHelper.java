@@ -155,5 +155,26 @@ public class RestClientHelper {
             pathVariables.forEach(uriBuilder::queryParam);
         }
     }
+
+  /*  /**
+ * Replaces placeholders in the URI path with actual values.
+ *
+ * @param uriPath       The URI path containing placeholders (e.g., /users/{id}).
+ * @param pathVariables A map of placeholder keys and their corresponding values.
+ * @return The resolved URI path with placeholders replaced by actual values.
+ */
+   /* private String resolvePathVariables(String uriPath, Map<String, String> pathVariables) {
+        if (pathVariables == null || pathVariables.isEmpty()) {
+            return uriPath;
+        }
+        for (Map.Entry<String, String> entry : pathVariables.entrySet()) {
+            uriPath = uriPath.replace("{" + entry.getKey() + "}", entry.getValue());
+        }
+        return uriPath;
+    }
+
+     String resolvedPath = resolvePathVariables(uriPath, pathVariables)
+
+
      */
 }
