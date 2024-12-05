@@ -148,4 +148,12 @@ public class RestClientHelper {
             return objectMapper.readValue(responseBody, clazz);
         }
     }*/
+
+    /*
+    private void addPathVariables(UriBuilder uriBuilder, Map<String, String> pathVariables) {
+        if (pathVariables != null && !pathVariables.isEmpty()) {
+            pathVariables.forEach(uriBuilder::queryParam);
+        }
+    }
+     */
 }
